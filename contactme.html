@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+  
+    <style>
+        .location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    margin-top: -30px;
+
+
+}
+
+body{
+    background-color:rgb(250, 139, 75);
+       
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+
+.contact-col div .fa{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+
+}
+
+.contact-col div p{
+    padding: 0;
+    
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc ;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color:beige;
+    text-align: center;
+    font-size: 40px;
+}
+ 
+    </style>
+</head>
+<body>
+
+    <Section class="sub-header">
+      
+       <h1>CONTACT ME</h1>
+       
+
+    </Section>
+
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14039.779526210026!2d77.05757272687812!3d28.39073269717266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d225075d6063f%3A0xfaca4d208972b598!2sM3M%20Urbana!5e0!3m2!1sen!2sin!4v1625758581210!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" ></i>
+                <span>
+                    <h5>ABCD Road, ABCD building</h5>
+                    <p>Gurugram, Haryana, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone" ></i>
+                <span>
+                    <h5>+1 01234567890</h5>
+                    <p>Monday to Saturday, 10AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" ></i>
+                <span>
+                    <h5>web@webdev.com</h5>
+                    <p>Email us your query.</p>
+                </span>
+            </div>
+            
+        </div>
+        <div class="contact-col">
+            <form action="" method="">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <textarea rows="10" name="feedback" placeholder="Feedback" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Feedback</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
